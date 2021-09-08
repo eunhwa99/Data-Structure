@@ -6,7 +6,7 @@ using namespace std;
 //노드를 정의할 구조체
 typedef struct GraphNode {
 	int vertex; //정점
-	struct GraphNode* link;
+	struct GraphNode* link; // 자기 참조 구조체: 링크를 통하여 차례대로 연결 가능(연결리스트)
 }GraphNode;
 
 //노드가 저장되는 리스트를 정의할 구조체
