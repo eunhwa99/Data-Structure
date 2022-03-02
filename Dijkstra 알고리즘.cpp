@@ -30,7 +30,7 @@ void dijkstra(int start) {
 			int nextDist = dist + a[cur][i].second;
 
 			if (nextDist < cost[next]) {
-				d[next] = nextDist;
+				cost[next] = nextDist;
 				pq.push({ next, -nextDist });
 			}
 		}
