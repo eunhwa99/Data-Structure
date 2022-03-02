@@ -1,3 +1,5 @@
+// capacity[][]: 각 간선의 용량 나타냄
+// flow[][]: 각 간선을 따라 흐르는 유량
 
 const int MAX_V = 10;
 const int INF = 987654321;
