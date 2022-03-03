@@ -18,6 +18,8 @@ bool cmp(int x, int y) {
 	return g[x] < g[y];
 }
 
+//Rank[i]는 S[i...]가 사전순으로 몇 번째 접미사인지 들어있다. 결국 Rank[pos[i]] = i이다.
+// 다시말해 Pos[1] = 3인데 Rank[3] = 1인 관계이다. (역함수 관계)
 void LCP() {
 	
 	// rank_ 배열에 접미사 배열 순서가 들어간다.
