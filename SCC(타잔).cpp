@@ -34,5 +34,3 @@ int SCC(int now){
     return ret;
 }
 
-
-출처: https://hyeo-noo.tistory.com/130 [개발냥발]
